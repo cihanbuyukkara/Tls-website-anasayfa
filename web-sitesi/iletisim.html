@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <!-- vendor -->
     <link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons/bootstrap-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="http://fonts.cdnfonts.com/css/nunito" rel="stylesheet">
+
 
     <title>Document</title>
 </head>
@@ -35,14 +37,14 @@
                 <div class="collapse navbar-collapse collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link " href="index.html"> Ana Sayfa</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link " href="hakkimizda.html">Hakkımızda</a>
+                        <li class="nav-item dropdown"><a class="nav-link  " href="hakkimizda.html">Hakkımızda</a>
                             <ul class="dropdown-content">
                                 <li class="nav-item"><a class="nav-link" href="#">Danışmanlık</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Proje Yönetimi</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item dropdown"><a class="nav-link active  " href="hizmetlerimiz.html">Hizmetlerimiz</a>
+                        <li class="nav-item dropdown"><a class="nav-link  " href="hizmetlerimiz.html">Hizmetlerimiz</a>
                             <ul class="dropdown-content">
                                 <li class="nav-item"><a class="nav-link" href="#">Destek Hizmetleri</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Özel Yazılım Çözümleri</a></li>
@@ -64,7 +66,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#">EasyHR"DijitalİK"</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="iletisim.html ">İletişim</a></li>
 
 
 
@@ -76,92 +78,76 @@
             </div>
         </nav>
     </header>
-    <section id="hero">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/SLİDER.png" class="d-block w-100">
-                </div>
 
-            </div>
-
-        </div>
-    </section>
-
-
-    <section id="hizmetlerimizHero">
+    <!-- Contact Side START -->
+    <section id="contact">
         <div class="container">
-            <div class="row gx-0">
-                <div class=" danişmanlik col-lg-5  order-1 order-lg-0 px-4">
-                    <h1>DANIŞMANLIK<br>HİZMETLERİ</h1>
-                    <p class="dH">İşinizi geliştirecek çözümler <br> için size yol haritasi çiziyoruz.</p>
+            <h3>İLETİŞİM</h3>
+
+            <div class="row gy-5 gy-lg-0">
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <h2>Bize Yazın</h2>
+                    <form>
+                        <input type="text" placeholder="İsim ve Soyisminiz">
+                        <input type="text" placeholder="Eposta Adresiniz">
+                        <div class="d-flex">
+                            <div class="col-lg-6 pe-2"><input type="text" placeholder="Telefonunuz">
+                                
+                            </div>
+                            <div class="col-lg-6 ps-2"><input type="text" placeholder="Konu"></div>
+                        </div>
+                        <textarea rows="6" placeholder="Mesaj"></textarea>
+                        <button class="teklif-btn"> Gönder</button>
+                    </form>
                 </div>
-                <div class="col-lg-6 order-0 order-lg-1 ">
-                    <div class="resim mt-5 mt-lg-4 mt-lg-0 text-center text-lg-start">
-                        <img class="img-fluid hizmetlerResim" src="img/masabasi.png " style=" border-radius: 50%;">
+                <div class="col-lg-6 d-flex align-items-lg-end justify-content-lg-end order-0 order-lg-1">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2240.3582733703493!2d29.119286194239095!3d40.97732686728531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7f5770f5a6d%3A0x34b5d49ce3f08a2f!2zVExTIFlhesSxbMSxbSB2ZSBEYW7EscWfbWFubMSxaw!5e0!3m2!1str!2str!4v1659277198993!5m2!1str!2str"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row contact-details g-3 justify-content-center justify-content-xxl-center">
+
+                <div class="col-xxl col-lg-4 col-sm-6">
+                    <div class="contact-card">
+                        <div class="icon-title">
+                            <img class="img-fluid" src="img/contact-icons/mail.png">
+                            <span>Eposta</span>
+                        </div>
+                        <p>yusuf.talus@tlsyazilim.com</p>
                     </div>
-
                 </div>
-            </div>
-            <div class="row gx-0">
-                <div class="paragraf px-4">
-                    <p>İşinizi geliştirecek çözümler için size yol haritası çiziyoruz. Çizdiğimiz yol haritası hem size
-                        zaman <br> hem de vizyon sağlayacaktır. Yapmış olduğumuz yüzlerce proje ile siz değerli iş
-                        ortaklarımıza iş <br> geliştirme ve danışmanlık sağlıyoruz. <br>
-                        <br>
-                        İşinizi geliştirecek tüm çözüm kümesini size özel demolarla sunuyoruz. <br>
-                        <br>
-                        Özellikle ; LOGO İK ürünlerini kullanan firmaların en yüksek verimlilik <br>
-                        alabilmeleri adına hedef odaklı analizler yapabilmesi ve en uygun çıktıların verilmesi için
-                        doğru <br> danışmanlık için buradayız. <br>
-                        <br>
-                        İş ortaklığı yaptığımız tüm yazılım ürünlerinin firmanıza özel uyarlanması için sizleri doğru
-                        <br>
-                        yönlendirmek için çalışıyoruz.
-                    </p>
-                </div>
-            </div>
-            <!-- PROJE YÖNETİMİ -->
 
-            <div class="row gx-0 position-relative hizmetlermargin">
-                <div class="col-lg-6  ">
-                    <div class="resim3 mt-4 mt-lg-0 text-center text-lg-start">
-                        <img class="img-fluid hizmetlerResim2" src="img/yapboz2.png " style=" border-radius: 40%;">
+                <div class="col-xxl col-lg-4 col-sm-6">
+                    <div class="contact-card">
+                        <div class="icon-title">
+                            <img class="img-fluid" src="img/contact-icons/call.png">
+                            <span>Telefon</span>
+                        </div>
+                        <p>0216 599 10 17
+                            <br>
+                            0507 848 93 34
+                        </p>
                     </div>
-
                 </div>
-                <div class=" danişmanlik2 text-lg-end col-lg-6 px-4 px-lg-0 ">
-                    <h1>PROJE YÖNETİMİ</h1>
-                    <p>
-                        İyi bir yazılım tercih ettikten sonraki en önemli süreç,  proje yönetimidir. Proje yönetiminin
-                        doğru ve
-                        firmaya uygun olarak tespitlerin yapılamadığı durumlarda, sonuç hep başarısız olmaktadır.
-                        Bu noktada satış, proje ekiplerimiz ve
-                        siz değerli iş ortaklarımız ile sürekli
-                        değerlendirmeler yaparak projelerimizi
-                        sonlandırıyoruz.
 
-                    </p>
-                    <p class="left">
-                        Size uygun yazılım ürünlerinin analizlerini yaparak projelendiriyoruz.
-                        Sonuca ulaşmayacak hiçbir projeye sizleri dahil etmiyoruz. Bu güne kadar 
-                        danışmanlarımızın profesyonel hayatlarında hiçbir projesi başarısız 
-                        olmamıştır.
-
-                    </p>
+                <div class="col-xxl col-lg-4 col-sm-6">
+                    <div class="contact-card">
+                        <div class="icon-title">
+                            <img class="img-fluid" src="img/contact-icons/map.png">
+                            <span>Adres</span>
+                        </div>
+                        <p>Kayışdağı Caddesi Erenler İş Merkezi No:82 K:1 İçerenköy ATAŞEHİR</p>
+                    </div>
                 </div>
 
             </div>
-            <div class="row gx-0">
-                <div class="paragraf2 text-end px-4 ">
-
-                </div>
-            </div>
-
-
-
         </div>
     </section>
+    <!-- Contact Side END -->
+
+
     <!-- footer -->
     <footer id="hero9">
         <div class="container">
